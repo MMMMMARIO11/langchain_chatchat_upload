@@ -40,3 +40,8 @@ articles_to_scrape = int(result["更新列表项数"])
 使用`upload_test.py`测试能否将本地文件上传知识库。
 
 ![知识库api接口](知识库api接口.png)
+
+5. **文本相似度测试**
+
+参考 ModelScope 平台上的开源项目 StructBERT 文本相似度模型的 Python 示例实现，主要目的是实现将新爬取的文章内容和mongodb数据库已有文本进行相似度比对，并决定是否录入。
+
